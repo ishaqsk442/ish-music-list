@@ -1,0 +1,46 @@
+.each-song {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.img {
+  height: 80px;
+  width: 150px;
+  border-radius: 10px;
+}
+.name-genre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.song-name {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.genre {
+  color: #3b82f6;
+  font-size: 10px;
+  font-weight: bold;
+}
+.time-delete {
+  text-align: end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+.delete {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  margin: 10px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+}
